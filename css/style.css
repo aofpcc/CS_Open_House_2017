@@ -43,7 +43,7 @@ h6 {
   /* font-family: 'Kanit', 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;; */
   font-weight: 700;
   margin: 0 0 35px;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   text-transform: uppercase; }
 
 p {
@@ -74,7 +74,7 @@ a {
 
 .google-maps {
   position: relative;
-  padding-bottom:56.25%; // This is the aspect ratio
+  padding-bottom: 56.25%; /* This is the aspect ratio */
   height: 0;
   overflow: hidden;
 }
@@ -178,7 +178,9 @@ a {
       font-size: 18px; }
     .intro-text {
       font-size: 32px;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      letter-spacing: 8px;
+      text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.75);
     }
   @media (min-width: 768px) {
     .masthead {
